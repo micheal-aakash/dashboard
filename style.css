@@ -97,6 +97,18 @@ header {
      .img {
     width: calc(50% - 20px); 
   }
+  .topnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    background-color: gray;
+    z-index: 1000;
+    padding: 10px;
+  }
   body{
     background-image: url(mountain.jpg);
     height: auto;
@@ -117,6 +129,19 @@ header {
 
    .img {
     width: calc(50% - 20px); 
+  }
+  .topnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4px;
+    justify-content: center;
+    background-color: gray;
+    z-index: 1000;
+    padding: 10px;
   }
   .button {
     width: 100%;
